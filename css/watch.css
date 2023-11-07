@@ -1,0 +1,89 @@
+body{
+    font-family: 'Cabin', sans-serif;
+  background-color: rgba(100, 89, 79, 0.687);  
+}
+
+/* Small */
+@media (min-width: 768px) {
+ 
+}
+/* Medium */
+@media (min-width: 992px) {
+ 
+}
+/* Large */
+@media (min-width: 1200px) {
+  
+}
+.hedarphoto {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hedarphoto .photo {
+    width: 40%;
+  
+  }
+ 
+
+  .hedarphoto .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    position: absolute;
+    top: 42%;
+    transform: translateY(-40%);
+    color:#fff;
+    
+  }
+
+  .hedarphoto .text h2 {
+    
+    font-size:40px;
+  }
+
+
+  .ChooseColor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+  }
+
+  .ChooseColor .btn1:hover{
+   background-color:rgb(219, 60, 2);
+   color: #fff;
+  
+  }
+
+   .ChooseColor .btn2:hover{
+   background-color:rgba(16, 16, 16, 0.772);
+   color: #fff;
+  
+  }
+  .ChooseColor .btn3:hover{
+    background-color:rgba(160, 77, 105, 0.877);
+    color: #fff;
+   
+   }
+  
+   .ChooseColor .btn4:hover{
+    background-color:rgb(255, 223, 228);
+    color: #fff;
+   
+   }
+  
+   .ChooseColor .btn5:hover{
+    background-color:rgb(80, 69, 142);
+    color: #fff;
+   
+   }
+   
+  
+
+  
+
+
+ 
